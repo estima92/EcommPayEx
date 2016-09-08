@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Алгоритм Луна</title>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+
+</head>
+<body>
+ <div class="container">
+     <div class="window centered">
+         <div class="info">
+             <h3>Оплата пластиковой картой</h3>
+             <p>Для проведения оплаты Вашей пластиковой картой введите её номер.</p>
+         </div>
+         <div class="card">
+             <div>
+                 <form >
+                     <input id="cardNumber" type="number" name="cardNumber" onblur="checkOnBlur()" oninput="checkOnValChange()"/>
+                 </form>
+                 <p class="cardName">RandomCard</p>
+             </div>
+         </div>
+         <h6 class="copyright">© ECommPay 2016</h6>
+     </div>
+ </div>
+</body>
+</html>
